@@ -1,0 +1,12 @@
+{
+  "name": "event-management-portal",
+  "version": "1.0.0",
+  "description": "A beginner-level event management portal with RSVP support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Management Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Event Management Portal</h1>
+
+    <form id="event-form">
+      <input type="hidden" id="event-id">
+      <input type="text" id="title" placeholder="Event title" required>
+      <textarea id="description" placeholder="Description (optional)"></textarea>
+      <input type="date" id="date" required>
+      <input type="text" id="location" placeholder="Location" required>
+      <input type="number" id="capacity" placeholder="Capacity (optional)" min="1">
+      <div class="form-buttons">
+        <button type="submit" id="submit-btn">Add Event</button>
+        <button type="button" id="cancel-btn" style="display:none;">Cancel Edit</button>
+      </div>
+    </form>
+
+    <div id="events-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1784350452363,
+    "title": "Farwell",
+    "description": "",
+    "date": "2027-04-24",
+    "location": "erode",
+    "capacity": 273,
+    "attendees": [
+      {
+        "name": "saran",
+        "rsvpAt": "2026-07-18T04:54:34.864Z"
+      },
+      {
+        "name": "koli",
+        "rsvpAt": "2026-07-18T04:54:44.828Z"
+      }
+    ]
+  }
+]
