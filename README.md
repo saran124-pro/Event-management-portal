@@ -1,5 +1,3 @@
-INTERN ID: CITS7193
-
 # 🎉 Event Management Portal
 
 A beginner-level full-stack app for creating events and letting people RSVP —
